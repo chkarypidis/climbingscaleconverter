@@ -17,6 +17,12 @@ Introduction
 
 This climbing scale converter allows you to convert from/to 17 grading scales in climbing (lead climbing and bouldering). You can easily include it as a gadget on your website/blog.
 
+Downloading
+-----------
+
+You may download this tool from https://github.com/chkarypidis/climbingscaleconverter/releases/download/v1.0/climbingScaleConverter_v1.0.zip
+or `https://www.dropbox.com/s/02z2t0vklkucvel/climbingScaleConverter_v1.0.zip <https://www.dropbox.com/s/02z2t0vklkucvel/climbingScaleConverter_v1.0.zip>`_.
+
 Using the climbing scale converter
 ----------------------------------
 
@@ -37,6 +43,14 @@ Integrating the converter into your blog
 
 * Embed the content of the ``convertClimbingScale.js`` file in a ``<script></script>`` environment and place the code anywhere in your code.
 * Paste the entire content of the <body> section anywhere on your blog.
+
+Sources
+-------
+
+- `http://www.mountaindays.net/articles/item/bouldering_grades_explained/ <http://www.mountaindays.net/articles/item/bouldering_grades_explained/>`_
+- `http://koanbouldering.blogspot.fr/2008/12/danky-grading-system.html <http://koanbouldering.blogspot.fr/2008/12/danky-grading-system.html>`_
+- `http://thousand-cranes.blogspot.fr/2007/04/grades-and-steps.html <http://thousand-cranes.blogspot.fr/2007/04/grades-and-steps.html>`_
+- `http://sublimated.wordpress.com/2007/07/08/climbing-grades-compared/ <http://sublimated.wordpress.com/2007/07/08/climbing-grades-compared/>`_
 
 Notes
 -----
