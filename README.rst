@@ -1,0 +1,46 @@
+========================================
+Climbing scale converter
+========================================
+
+Version 1.0
+
+Charalampos Karypidis
+
+ch.karypidis@gmail.com
+
+`http://addictiveknowledge.blogspot.com/ <http://addictiveknowledge.blogspot.com/>`_
+
+January 05, 2014
+
+Introduction
+------------
+
+This climbing scale converter allows you to convert from/to 17 grading scales in climbing (lead climbing and bouldering). You can easily include it as a gadget on your website/blog.
+
+Using the climbing scale converter
+----------------------------------
+
+A stand-alone version of this gadget is available in this archive. All you need to do is open the html file with your favourite browser.
+
+An implemented version of this tool can be found `here <http://onmywayto8a.blogspot.com/>`_.
+
+Integrating the converter into your website
+-------------------------------------------
+
+* Copy ``convertClimbingScale.js`` in the same directory as the one holding your html file.
+* Insert ``<script src="convertClimbingScale.js"></script>`` in the <head> section of your html file. If you decide to put the .js file in another folder, make sure the correct directory is indicated.
+* Paste the entire content of the <body> section into your html file. It is up to you to decide where on your page the converter will be displayed.
+* If you would like for the input box to receive focus automatically after the page load, include the ``onload="focusOnInput()"`` option in your <body> tag.
+
+Integrating the converter into your blog
+----------------------------------------
+
+* Embed the content of the ``convertClimbingScale.js`` file in a ``<script></script>`` environment and place the code anywhere in your code.
+* Paste the entire content of the <body> section anywhere on your blog.
+
+Notes
+-----
+
+- The equivalence between scales is available in the .ods file. That data is also available in the Javascript code. If you do not agree with a specific equivalence, feel free to modify the JS code directly (see comments within the code).
+- Please do not omit the ``<p>By <a href="http://addictiveknowledge.blogspot.com/">addictive knowledge</a></p>`` snippet. This will allow people to get to know the rest of my work.
+- If you find this gadget useful, you might consider making a small Paypal donation; this feature will be available around mid January 2014.

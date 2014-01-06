@@ -1,0 +1,120 @@
+<!--
+Climbing scale converter
+Author: Charalampos KARYPIDIS
+v1.0  - 20140105
+ch.karypidis@gmail.com
+http://addictiveknowledge.blogspot.com/
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://www.w3.org/2005/10/profile">
+
+<title>Convert from one climbing scale to another!</title>
+
+<style>
+body {
+background-color:black;
+color: white;
+}
+a:link {color:#33ccff}
+a:visited {color:yellow}
+a:hover {color:white}
+a:active {color:blue}
+</style>
+
+
+<script src="convertClimbingScale.js"></script>
+
+
+</head>
+
+<body onload="focusOnInput()">
+
+<table summary="" style="text-align:center">
+<tr>
+<td>
+<select id="inputScales" onchange="disableOptions(),result()">
+<option value="" />
+<optgroup label="Lead climbing">
+<option value="Yosemite (YDS)" />Yosemite (YDS)
+<option value="British Technical" />British Technical
+<option value="British adjectival" />British adjectival
+<option value="French" />French
+<option value="UIAA" />UIAA
+<option value="Saxon" />Saxon
+<option value="Ewbank" />Ewbank
+<option value="Finnish" />Finnish
+<option value="SWE/NOR" />SWE/NOR
+<option value="Brazilian" />Brazilian
+</optgroup>
+<optgroup label="Bouldering">
+<option value="Hueco (V-Grade)" />Hueco (V-Grade)
+<option value="Fontainebleau" />Fontainebleau
+<option value="Fontainebleau Traverse" />Fontainebleau Traverse
+<option value="Peak Bouldering Grade" />Peak Bouldering Grade
+<option value="British Technical Grade" />British Technical Grade
+<option value="Japanese Dankyu" />Japanese Dankyu
+<option value="Japanese Toyota" />Japanese Toyota
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td><input type="text" size="15" id="inputBox" onkeyup="result()" /></td>
+</tr>
+<tr>
+<td style="font-size:x-large"><abbr title="Convert to" onclick="result()">&#11015;</abbr><abbr title="Invert data" onclick="invertScales(),result()">&#11021;</abbr></td>
+</tr>
+<tr>
+<td><select id="outputScales" onchange="result()">
+<option value="" />
+<optgroup label="Lead climbing">
+<option value="Yosemite (YDS)" />Yosemite (YDS)
+<option value="British Technical" />British Technical
+<option value="British adjectival" />British adjectival
+<option value="French" />French
+<option value="UIAA" />UIAA
+<option value="Saxon" />Saxon
+<option value="Ewbank" />Ewbank
+<option value="Finnish" />Finnish
+<option value="SWE/NOR" />SWE/NOR
+<option value="Brazilian" />Brazilian
+</optgroup>
+<optgroup label="Bouldering">
+<option value="Hueco (V-Grade)" />Hueco (V-Grade)
+<option value="Fontainebleau" />Fontainebleau
+<option value="Fontainebleau Traverse" />Fontainebleau Traverse
+<option value="Peak Bouldering Grade" />Peak Bouldering Grade
+<option value="British Technical Grade" />British Technical Grade
+<option value="Japanese Dankyu" />Japanese Dankyu
+<option value="Japanese Toyota" />Japanese Toyota
+</optgroup>
+</select>
+</td>
+</tr>
+<tr>
+<td><input type="text" size="15" id="outputBox" /></td>
+</tr>
+</table>
+
+<p>By <a href="http://addictiveknowledge.blogspot.com/">addictive knowledge</a></p>
+
+</body>
+</html> 
